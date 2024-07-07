@@ -1,0 +1,368 @@
+@font-face {
+    font-family: "Poppins";
+    src: url("./Assets/Fonts/Poppins-Regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  body {
+    font-family: "Poppins", sans-serif;
+  }
+
+
+  /* --------------------------------- */
+
+  /* <!👇👇👇👇👇---NAV-Start---👇👇👇👇👇> */
+
+  nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #f8f5ff;
+    padding: 10px 30px;
+  }
+  .user-nav {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+  .business-nav-btn {
+    display: flex;
+    gap: 12px;
+    margin-right: 0px;
+  }
+  .business-nav-btn img {
+    height: 20px;
+  }
+  .account-nav-btn {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: none;
+    height: 56px;
+    padding: 10px 20px;
+    color: white;
+    cursor: pointer;
+    justify-content: space-between;
+    gap: 6px;
+    border-radius: 5px;
+    background-color: #7a44ff;
+    margin-left: 24px;
+  }
+  
+  .account-nav-btn img {
+    height: 20px;
+  }
+
+
+
+  /* <!☝️☝️☝️☝️☝️---Nav-End---☝️☝️☝️☝️☝️> */
+/* ------------------------------------------------- */
+  /* <!👇👇👇👇👇---Header Start----👇👇👇👇👇> */
+
+  header {
+    display: flex;
+    flex-direction: row;
+    padding: 64px;
+    background-color: #f8f5ff;
+    justify-content: center;
+    align-items: center;
+    gap: 168px;
+  }
+  .header-title {
+    color: #7a44ff;
+    font-size: 24px;
+    line-height: 58px; /* 241.667% */
+  }
+  .header-text {
+    font-size: 48px;
+    line-height: 58px;
+  }
+  /* .search-input {
+    border: 1px solid gray;
+    padding: 20px;
+    width: 100%;
+    border-radius: 5px;
+  } */
+  .header-search-container {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    gap: 10px;
+    margin-top: 48px;
+  }
+  
+  .search-input-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+    width: 100%;
+    border: 1px solid #8d8e8f;
+    border-radius: 5px;
+    padding: 10px;
+    height: 56px;
+    background-color: white;
+    padding-left: 10px;
+}
+.search-input-container input{
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+.search-input-container input::placeholder{
+    color: #667085;
+    /* font-family: Poppins; */
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+  /* <!☝️☝️☝️☝️☝️---Header-End---☝️☝️☝️☝️☝️> */
+/* ------------------------------------------------- */
+  /* <!👇👇👇👇👇---How To---Start----👇👇👇👇👇> */
+  
+.how-to {
+    display: flex;
+    padding: 24px;
+    gap: 72.5px;
+    justify-content: center;
+    align-items: flex-start;
+    align-self: center;
+}
+.text-side-image {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding-top: 0px;
+    margin-top: 0px;
+    gap: 72.5px;
+  }
+
+.steps-container-title {
+    color: #7a44ff;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    line-height: 58px;
+    padding-bottom: 16px;
+    height: 58px;
+  }
+
+  .steps-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 32px;
+
+
+  }
+  .step-item {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+  }
+    .step-number {
+    color: #7a44ff;
+    width: 58px;
+    height: 58px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 99px;
+    font-size: 24px;
+    background-color: #f8f5ff;
+  }
+    .step-title {
+    font-size: 24px;
+    line-height: 58px;
+  }
+  .step-description {
+    font-size: 16px;
+    line-height: 28px;
+    color: #667085;
+  }
+
+  .side-image {
+    width: 223px;
+  }
+  .side-image img {
+    width: 100%;
+    height: 100%;
+  }
+  /* <!☝️☝️☝️☝️☝️---How To---End--☝️☝️☝️☝️☝️> */
+/* ------------------------------------------------- */
+/* <!👇👇👇👇👇---App Section---Start----👇👇👇👇👇> */
+
+.app-section-background {
+    width: 100%;
+height: 750px;
+background-color: #7a44ff;
+margin-top: -100px;
+align-items: center;
+
+
+}
+  .app-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: stretch;
+    align-self: center;
+    width: 1,090px;
+    height: 494px;
+    padding-left: 175px;
+    padding-right: 175px;
+    padding-bottom: 0px;
+    padding-top: 256px;
+  }
+.app-section-title {
+    color: #fff;
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 58px;
+    width: 442px;
+    margin-bottom: 16px;
+  }
+  .app-subtext {
+    color: #fff;
+    font-family: "Poppins";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+  }
+  .btn-app-container {
+    display: flex;
+    gap: 20px;
+    padding: 42px 0;
+
+  }
+  .btn-app-dark {
+    background-color: black;
+    color: white !important;
+  }
+  .btn-app {
+    width: 183px;
+    height: 52px;
+    border-radius: 20px;
+    color: #1b2037;
+    text-align: center;
+    font-family: "Poppins";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    border: none;
+    display: flex;
+    gap: 10px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .app-look-img img {
+    animation: feedIn 2s;
+  }
+/* <!☝️☝️☝️☝️☝️---App Section---End---☝️☝️☝️☝️☝️> */
+/* -------------------------------------------------------- */
+/* <!👇👇👇👇👇---Footer---Start----👇👇👇👇👇> */
+footer {
+    padding: 64px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .footer-text {
+    margin-top: 35px;
+    width: 381px;
+    font-size: 32px;
+    line-height: 44px;
+    font-family: "Poppins";
+  }
+  .footer-list {
+    display: flex;
+    flex-direction: column;
+  } 
+  
+  .list-head-footer {
+    font-size: 24px;
+    line-height: 58px;
+  }
+  .ul-list {
+    display: flex;
+    gap: 60px;
+  }
+
+  .footer-list ul {
+    list-style: none;
+  }
+  .footer-list li {
+    color: #667085;
+    line-height: 40px;
+  }
+/* <!☝️☝️☝️☝️☝️---Footer---End---☝️☝️☝️☝️☝️> */
+/* -------------------------------------------------------- */
+/* <!👇👇👇👇👇---Copyright---Start----👇👇👇👇👇> */
+
+.copy-right {
+    background-color: #7a44ff;
+    padding: 24px;
+    display: flex;
+    margin: 64px;
+    justify-content: space-between;
+  }
+  .copy-right-text {
+    color: white;
+    line-height: 40px;
+    font-size: 16px;
+  }
+/* <!☝️☝️☝️☝️☝️---Copyright---End---☝️☝️☝️☝️☝️> */
+/* -------------------------------------------------------- */
+
+
+  
+  @keyframes feedIn {
+    from {
+      transform: translateX(1000px);
+      opacity: 0;
+    }
+  
+    to {
+      transform: translateX(0px);
+  
+      opacity: 1;
+    }
+  }
+
+/* ???????????????????????????????????????????????????????????? */
+  @media only screen and (max-width: 1000px) {
+    .steps-info {
+      flex-direction: column;
+    }
+    .app-section {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+  @media (min-width: 320px) {
+    /*smartphones, portrait iPhone, portrait 480x320 phones (Android) */
+  }
+  @media (min-width: 480px) {
+    /* smartphones, Android phones, landscape iPhone */
+  }
+  @media (min-width: 600px) {
+    /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
+  }
+  @media (min-width: 801px) {
+    /* tablet, landscape iPad, lo-res laptops ands desktops */
+  }
+  @media (min-width: 1025px) {
+    /* big landscape tablets, laptops, and desktops */
+  }
+  @media (min-width: 1281px) {
+    /* hi-res laptops and desktops */
+  }
+  
+/* ???????????????????????????????????????????????????????????? */

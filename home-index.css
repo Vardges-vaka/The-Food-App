@@ -1,0 +1,751 @@
+@font-face {
+  font-family: "Poppins";
+  src: url("./Assets/Fonts/Poppins-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+
+
+/* <!👇👇👇👇👇---NAV---👇👇👇👇👇> */
+.nav-left {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 32px;
+}
+.input-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+  width: 460px;
+  border: 1px solid black;
+  padding: 4px;
+  border-radius: 5px;
+}
+.input-container input{
+  width: 400px;
+  border: none;
+}
+.input-container input::placeholder{
+  color: #667085;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+
+.shoping-basket {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 12px;
+}
+.busket {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+.itm-qnt {
+  width: 19px;
+  height: 19px;
+  position: absolute;
+  border: 1px solid 151A2D;
+  border-radius: 20px;
+  text-align: center;
+  background-color: #151A2D;
+  color: #FFFFFF;
+  left: 15px;
+  bottom: 13px;
+}
+.itm-amount {
+  color: #000;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px; 
+}
+
+.nav-profile {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+
+
+.profile-menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 56px;
+  height: 56px;
+  border: 1px solid #E4DAFF;
+  border-radius: 10px;
+}
+
+.profile-menu img{
+  padding: 16px;
+
+}
+
+.profile-img {
+  width: 56px;
+  height: 56px;
+  border-radius: 5px;
+  background-image: url("./Assets/Images/2-Home/Nav/female-photo.png");
+}
+
+
+.nav-right {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 32px;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 64px;
+}
+
+
+/* <!☝️☝️☝️☝️☝️---Nav End---☝️☝️☝️☝️☝️> */
+
+/* <!👇👇👇👇👇---Header Start-Background---👇👇👇👇👇> */
+header {
+  width: 1440px;
+  height: 258px;
+  background-color: #7A44FF;
+  position: relative;
+
+}
+
+.pizza-background {
+  position: absolute;
+  bottom: 0px;
+}
+
+.pasta-background {
+  position: absolute;
+  right: 1px;
+}
+
+/* <!☝️☝️☝️☝️☝️---Header-Background End---☝️☝️☝️☝️☝️> */
+
+.menu-categories-container{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 12px;
+  position: absolute;
+  bottom: 64px;
+  top: 64px;
+  left: 64px;
+  right: 64px;
+}
+.category-fast-food {
+  width: 96px;
+  min-height: 98px;
+  max-height: auto;
+  border-radius: 12px;
+  padding: 16px 12px;
+  display: flex;
+  font-size: 14px;
+  font-family: "Poppins";
+  align-items: center;
+  flex-direction: column;
+  background: #FFE5B4;
+}
+.category-kebab {
+  width: 96px;
+  min-height: 98px;
+  max-height: auto;
+  border-radius: 12px;
+  padding: 16px 12px;
+  display: flex;
+  font-size: 14px;
+  font-family: "Poppins";
+  align-items: center;
+  flex-direction: column;
+  background: #FFDAB9;
+}
+.category-italian {
+  width: 96px;
+  min-height: 98px;
+  max-height: auto;
+  border-radius: 12px;
+  padding: 16px 12px;
+  display: flex;
+  font-size: 14px;
+  font-family: "Poppins";
+  align-items: center;
+  flex-direction: column;
+  background: #FAF0E6;
+}
+.category-indian {
+  width: 96px;
+  min-height: 98px;
+  max-height: auto;
+  border-radius: 12px;
+  padding: 16px 12px;
+  display: flex;
+  font-size: 14px;
+  font-family: "Poppins";
+  align-items: center;
+  flex-direction: column;
+  background: #FFE4E1;
+}
+.category-sea-food {
+    width: 96px;
+    min-height: 98px;
+    max-height: auto;
+    border-radius: 12px;
+    padding: 16px 12px;
+    display: flex;
+    font-size: 14px;
+    font-family: "Poppins";
+    align-items: center;
+    flex-direction: column;
+    background: #E0FFFF;
+}
+.category-vegan {
+    width: 96px;
+    min-height: 98px;
+    max-height: auto;
+    border-radius: 12px;
+    padding: 16px 12px;
+    display: flex;
+    font-size: 14px;
+    font-family: "Poppins";
+    align-items: center;
+    flex-direction: column;
+    background: #E0F8E0;
+}
+.category-udon {
+    width: 96px;
+    min-height: 98px;
+    max-height: auto;
+    border-radius: 12px;
+    padding: 16px 12px;
+    display: flex;
+    font-size: 14px;
+    font-family: "Poppins";
+    align-items: center;
+    flex-direction: column;
+    background: #FFDCF1;
+}
+.category-tempura {
+  width: 96px;
+  min-height: 98px;
+  max-height: auto;
+  border-radius: 12px;
+  padding: 16px 12px;
+  display: flex;
+  font-size: 14px;
+  font-family: "Poppins";
+  align-items: center;
+  flex-direction: column;
+  background: #F9FFB4;
+}
+.category-donburi {
+  width: 96px;
+  min-height: 98px;
+  max-height: auto;
+  border-radius: 12px;
+  padding: 16px 12px;
+  display: flex;
+  font-size: 14px;
+  font-family: "Poppins";
+  align-items: center;
+  flex-direction: column;
+  background: #FAF0E6;
+}
+.category-browse-more {
+  width: 96px;
+  min-height: 98px;
+  max-height: auto;
+  border-radius: 12px;
+  padding: 16px 12px;
+  display: flex;
+  font-size: 14px;
+  font-family: "Poppins";
+  align-items: center;
+  flex-direction: column;
+  background: #FFF;
+}
+.category-name {
+  color: #1B2037;
+  text-align: center;
+  font-weight: 400;
+  line-height: 24px;
+  align-self: stretch;
+}
+
+/* <!☝️☝️☝️☝️☝️---Header End---☝️☝️☝️☝️☝️> */
+
+/* <!👇👇👇👇👇---Main Container Start---👇👇👇👇👇> */
+
+.main-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 71px;
+  width: 1090px;
+  height: 1116px;
+  margin: 64px 175px;
+}
+
+/* <!👇👇👇-Filter Left-Start👇👇👇> */
+
+.the-filter {
+  display: flex;
+  flex-direction: column;
+  padding-top: 0px;
+  gap: 0px;
+  width: 199px;
+  height: max-content;
+}
+.filter-title {
+  color: #0E1223;
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 52px; 
+  margin-bottom: 12px;
+  margin-top: 0px;
+}
+.filter-criteria-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  align-self: flex-start;
+  height: max-content;
+
+}
+.criteria-title {
+  color: #0E1223;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+  margin-top: 0px;
+  margin-bottom: 12px;
+}
+.filter-criteria-container ul {
+  padding-left: 0px;
+  margin-top: 0px;
+}
+.filter-item {
+  display: flex;
+  gap: 12px;
+  padding: 0px;
+  margin-bottom: 8px;
+  margin-top: 0px;
+}
+
+/* <!👇👇--Filter--👇👇--Checkbox--👇👇--👇-Start-👇--> */
+
+.custom-checkbox input[type="checkbox"] {
+  display: none;
+}
+.custom-checkbox label {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  border: 2px solid gray;
+  border-radius: 5px;
+  cursor: pointer;
+  position: relative;
+}
+.custom-checkbox input[type="checkbox"]:checked + label {
+  background-color: rgb(50, 243, 2);
+}
+.custom-checkbox input[type="checkbox"]:checked + label::after {
+  opacity: 1;
+}
+
+.custom-checkbox label::after {
+  content: "";
+  position: absolute;
+  width: 6px;
+  height: 12px;
+  border-bottom: 2px solid rgb(0, 0, 0);
+  border-right: 2px solid rgb(0, 0, 0);
+  left: 6px;
+  transform: rotate(45deg);
+  opacity: 0;
+  top: 2px;
+  left: 8px;
+}
+
+/* <!☝️☝️--Filter--☝️☝️--Checkbox--☝️☝️--☝️-Start-☝️--> */
+
+.filter-item-text {
+  display: flex;
+  flex-direction: column;
+  width: max-content;
+  margin-top: 0px;
+  padding-top: 0px;
+}
+.filter-item-title {
+  width: max-content;
+  color: #0E1223;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+
+.filter-item-subtitle {
+  width: max-content;
+  color: #667085;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-top: 2px;
+  margin-bottom: 0px;
+}
+.filter-break-line {
+  background-color: #E0E2E7;
+  height: 1px;
+  width: 199px;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+.raiting-stars{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 4px;
+  margin-top: -7px;
+}
+.star-icon{
+  width: 24px;
+  height: 24px;
+}
+
+/* <!👇👇---👇👇---Menu Card--Start---👇👇---👇👇> */
+
+.card-right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.restaurants-title-search-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  width: 820px;
+  height: 120px;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+.search-container-title {
+  color: #0E1223;
+  font-family: Poppins; 
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 52px;
+  margin: 0;
+}
+.input-container-1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+  width: 460px;
+  border: 1px solid black;
+  padding: 4px;
+  border-radius: 5px;
+}
+.input-container-1 input{
+  width: 400px;
+  border: none;
+}
+.input-container-1 input::placeholder{
+  color: #667085;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+}
+.restaurants-cards-container {
+display: grid;
+grid-template-columns: 1fr 1fr;
+width: 820px;
+gap: 24px;
+}
+
+/* <!👇👇---👇👇---Food Card--Start---👇👇---👇👇> */
+
+.single-food-card {
+  width: 398px;
+  height: 227px;
+  border: 1px solid rgb(204, 204, 204);
+  border-radius: 10px;
+}
+.main-img-container {
+  position: relative;
+  }
+.card-main-img {
+  border-radius: 10px 10px 0 0;
+}
+.card-like-icon {
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  background-color: rgb(236, 231, 231);
+  padding: 6px;
+  border-radius: 5px;
+}  
+.card-text-container {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  height: 82px;
+  padding-left: 8px;
+  padding-bottom: 8px;
+  padding-right: 8px;
+  padding-top: -16px;
+}
+.restaurant-logo {
+  width: 54px;
+  height: 54px;
+  z-index: 999;
+  margin-top: -20px;
+}
+.card-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-self: center;
+  width: 100%;
+  margin-top: -32px;
+  gap: 2px;
+}
+.card-info-title {
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: 500;
+  margin-bottom: 2px;
+}
+.card-review-part {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  margin-top: 0px;
+  margin: 0px;
+  padding: 0px;
+  height: 24px;
+}
+.rating-text {
+  color: rgb(232, 200, 137);
+}
+.food-type-with-delivery{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 24px;
+} 
+.food-type-info {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  height: 24px;
+}
+.delivery-info-free {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  color: white;
+  border-radius: 8px;
+  padding: 4px 8px;
+  height: 24px;
+  font-family: "Poppins";
+  background-color: #23c965;
+}
+.delivery-info-free-other {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  color: white;
+  border-radius: 8px;
+  padding: 4px 8px;
+  height: 24px;
+  font-family: "Poppins";
+  background-color: #7A44FF;
+}
+
+        /* <!☝️☝️---☝️☝️---Food Card--End---☝️☝️---☝️☝️> */
+/* <!---☝️☝️☝️☝️☝️☝️---Main Container---End---☝️☝️☝️☝️☝️☝️---> */
+
+/* ---------------------------------------------------------------------------- */
+
+/* <!---☝️☝️☝️☝️☝️☝️---APP Section---Start---☝️☝️☝️☝️☝️☝️---> */
+
+.app-section {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: #7a44ff;
+  border-radius: 8px;
+  width: 1092px;
+  height: 477.46px;
+  gap: 207px;
+  margin: 0px 175px;
+}
+.app-left-side{
+  margin-left: 64px;
+}
+.app-download {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 58px;
+  width: 442px;
+  margin-bottom: 16px;
+}
+.app-text {
+  color: #fff;
+  font-family: "Poppins";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+}
+.app-image-container{
+  place-self: end;
+  padding-right: 64px;
+  padding-top: 64px;
+  padding-bottom: 0px;
+  margin-bottom: -4px;
+    
+}
+.app-image-container img{
+  width: 385px;
+  height: 413.46px;
+}
+
+/* <!---☝️☝️☝️☝️☝️☝️---APP Section---End---☝️☝️☝️☝️☝️☝️---> */
+
+/* ---------------------------------------------------------------------------- */
+
+/* <!---☝️☝️☝️☝️☝️☝️---Footer---Start---☝️☝️☝️☝️☝️☝️---> */
+
+footer {
+  padding: 64px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 64px;
+}
+.footer-list ul {
+  list-style: none;
+}
+.footer-list li {
+  color: #667085;
+  line-height: 40px;
+}
+
+.footer-text {
+  margin-top: 35px;
+  width: 381px;
+  font-size: 32px;
+  line-height: 44px;
+  font-family: "Poppins";
+}
+.btn-app-container {
+  display: flex;
+  gap: 20px;
+  padding: 42px 0;
+}
+.btn-app-dark {
+  background-color: black;
+  color: white !important;
+}
+.btn-app {
+  width: 183px;
+  height: 52px;
+  border-radius: 20px;
+  color: #1b2037;
+  text-align: center;
+  font-family: "Poppins";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  border: none;
+  display: flex;
+  gap: 10px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.footer-list {
+  display: flex;
+  flex-direction: column;
+}
+.list-head-footer {
+  font-size: 24px;
+  line-height: 58px;
+}
+.ul-list {
+  display: flex;
+  gap: 60px;
+}
+/* <!---☝️☝️☝️☝️☝️☝️---Footer---End---☝️☝️☝️☝️☝️☝️---> */
+
+/* ---------------------------------------------------------------------------- */
+
+/* <!---☝️☝️☝️☝️☝️☝️---Copyright---Start---☝️☝️☝️☝️☝️☝️---> */
+  .copy-right {
+    background-color: #7a44ff;
+    padding: 24px;
+    display: flex;
+    margin: 64px;
+    justify-content: space-between;
+  }
+  .copy-right-text {
+    color: white;
+    line-height: 40px;
+    font-size: 16px;
+  }
+/* <!---☝️☝️☝️☝️☝️☝️---Copyright---End---☝️☝️☝️☝️☝️☝️---> */
+
+
+
+/* ???????????????????????????????????????????????????????????? */
+@media only screen and (max-width: 500px) {
+
+  body {
+    background-color: #000;
+
+  /* nav {
+    flex-direction: column-reverse;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+  } */
+}
+
+}
+/* ???????????????????????????????????????????????????????????? */
+

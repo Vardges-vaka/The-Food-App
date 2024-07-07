@@ -1,0 +1,713 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link rel="stylesheet" href="./home-index.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="nav-left">
+        <a href="#">
+          <img src="./Assets/Images/main-logo.svg" alt="Hanki Logo"/></a>
+        <div class="input-container">
+          <img
+            src="./Assets/Images/Icons/map-location-icon-purple.svg"
+            alt="Location Icon"
+          />
+          <input type="text" placeholder="Sakura Blossom Lane 54" />
+        </div>
+      </div>
+      <div class="nav-right">
+        <div class="shoping-basket">
+          <div class="busket">
+            <a href="#">
+              <img
+                src="./Assets/Images/Icons/business-icon.svg"
+                alt="Shopping Basket Icon"
+              />
+            </a>
+            <span class="itm-qnt">1</span>
+          </div>
+          <div>
+            <p class="itm-amount">150.00$</p>
+          </div>
+        </div>
+        <div class="nav-profile">
+          <div class="profile-img"></div>
+          <div class="profile-menu">
+            <img
+              src="./Assets/Images/Icons/group-icon.svg"
+              alt="Menu Icon"
+            />
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <header>
+      <img
+        src="./Assets/Images/2-Home/Header/pizza-background.png"
+        alt="Image of a tasty looking Pizza"
+        class="pizza-background"/>
+      <img
+        src="./Assets/Images/2-Home/Header/pasta-background.png"
+        alt="Image of a tasty looking Pasta"
+        class="pasta-background"/> 
+    <div class="menu-categories-container">
+      <div class="category-fast-food">
+        <img src="/Assets/Images/2-Home/Header/fast-food-icon.png" alt="Fast Food(Burger) Food Category Icon"  class="category-icon">
+        <p class="category-name">Fast Food</p>
+      </div>
+      <div class="category-kebab">
+        <img src="/Assets/Images/2-Home/Header/kebab-icon.png" alt="Kebab Food Category Icon"  class="category-icon">
+        <p class="category-name">Kebab</p>
+      </div>
+      <div class="category-italian">
+        <img src="/Assets/Images/2-Home/Header/italian-icon.png" alt="Italian Food Category Icon"  class="category-icon">
+        <p class="category-name">Italian</p>
+      </div>
+      <div class="category-indian">
+        <img src="/Assets/Images/2-Home/Header/indian-icon.png" alt="Indian Food Category Icon"  class="category-icon">
+        <p class="category-name">Indian</p>
+      </div>
+      <div class="category-sea-food">
+        <img src="/Assets/Images/2-Home/Header/sea-food-icon.png" alt="Sea Food Food Category Icon"  class="category-icon">
+        <p class="category-name">Sea Food</p>
+      </div>
+      <div class="category-vegan">
+        <img src="/Assets/Images/2-Home/Header/vegan-icon.png" alt="Vegan Food Category Icon"  class="category-icon">
+        <p class="category-name">Vegan</p>
+      </div>
+      <div class="category-udon">
+        <img src="/Assets/Images/2-Home/Header/udon-icon.png" alt="Udon Food Category Icon"  class="category-icon">
+        <p class="category-name">Udon</p>
+      </div>
+      <div class="category-tempura">
+        <img src="/Assets/Images/2-Home/Header/tempura-holder.png" alt="Tempura Food Category Icon"  class="category-icon">
+        <p class="category-name">Tempura</p>
+      </div>
+      <div class="category-donburi">
+        <img src="/Assets/Images/2-Home/Header/donburi-icon.png" alt="Donburi Food Category Icon"  class="category-icon">
+        <p class="category-name">Donburi</p>
+      </div>
+      <div class="category-browse-more">
+        <img src="/Assets/Images/Icons/browse-more-icon.svg" alt="Browse More Icon"  class="category-icon">
+        <p class="category-name">Browse More</p>
+      </div>
+    </div>
+   </header>
+
+    <section class="main-container">
+
+      <aside class="the-filter">
+        <p class="filter-title">Filter</p>
+        <div class="filter-criteria-container">
+          <p class="criteria-title">Search by</p>
+          <ul>
+            <li class="filter-item">
+              <div class="custom-checkbox">
+                <input type="checkbox" id="checkbox1" />
+                <label for="checkbox1"></label>
+              </div>
+              <div class="filter-item-text">
+                <p class="filter-item-title">Spcial offers</p>
+                <p class="filter-item-subtitle">56 places</p>
+              </div>
+            </li>
+            <li class="filter-item">
+              <div class="custom-checkbox">
+                <input type="checkbox" id="checkbox2" />
+                <label for="checkbox2"></label>
+              </div>
+              <div class="filter-item-text">
+                <p class="filter-item-title">Free Delivery</p>
+                <p class="filter-item-subtitle">408 places</p>
+              </div>
+            </li> 
+            <li class="filter-item">
+              <div class="custom-checkbox">
+                <input type="checkbox" id="checkbox3" />
+                <label for="checkbox3"></label>
+              </div>
+              <div class="filter-item-text">
+                <p class="filter-item-title">Top Sellers</p>
+                <p class="filter-item-subtitle">15 places</p>
+              </div>
+            </li>
+            <li class="filter-item">
+              <div class="custom-checkbox">
+                <input type="checkbox" id="checkbox4" />
+                <label for="checkbox4"></label>
+              </div>
+              <div class="filter-item-text">
+                <p class="filter-item-title">Open Now</p>
+                <p class="filter-item-subtitle">255 places</p>
+              </div>
+            </li>
+
+            <li class="filter-item">
+              <div class="custom-checkbox">
+                <input type="checkbox" id="checkbox5" />
+                <label for="checkbox5"></label>
+              </div>
+              <div class="filter-item-text">
+                <p class="filter-item-title">Pickup</p>
+                <p class="filter-item-subtitle">350 places</p>
+              </div>
+            </li> 
+
+          </ul>
+        </div>
+
+        <hr class="filter-break-line">
+
+         <div class="filter-criteria-container">
+          <p class="criteria-title">Sort By</p>
+          <ul>
+            <li class="filter-item">
+              <div class="custom-checkbox">
+                <input type="checkbox" id="checkbox6" />
+                <label for="checkbox6"></label>
+              </div>
+              <div>
+                <p class="filter-item-title">Nearest First</p>
+                </div>
+            </li>
+            
+            <li class="filter-item">
+              <div class="custom-checkbox">
+                <input type="checkbox" id="checkbox7" />
+                <label for="checkbox7"></label>
+              </div>
+              <div>
+                <p class="filter-item-title">Best Match</p>
+                </div>
+            </li>
+            <li class="filter-item">
+              <div class="custom-checkbox">
+                <input type="checkbox" id="checkbox8" />
+                <label for="checkbox8"></label>
+              </div>
+              <div>
+                <p class="filter-item-title">Customer Rating</p>
+                
+              </div>
+            </li>
+            <li class="filter-item">
+              <div class="custom-checkbox">
+                <input type="checkbox" id="checkbox9" />
+                <label for="checkbox9"></label>
+              </div>
+              <div>
+                <p class="filter-item-title">Customer Rating</p>
+                
+              </div>
+            </li>
+
+
+          </ul>
+        </div>
+        <hr class="filter-break-line">
+         <div class="filter-criteria-container">
+          <p class="criteria-title">Ratings</p>
+          <ul>
+            <li class="filter-item">
+              <div class="custom-checkbox">
+                <input type="checkbox" id="checkbox10" />
+                <label for="checkbox10"></label>
+              </div>
+              <div class="raiting-stars">
+                <img class="star-icon" src="./Assets/Images/2-Home/Order-Place-Container/star-icon.svg" alt="raiting-star-icon">
+                <img class="star-icon" src="./Assets/Images/2-Home/Order-Place-Container/star-icon.svg" alt="raiting-star-icon">
+                <img class="star-icon" src="./Assets/Images/2-Home/Order-Place-Container/star-icon.svg" alt="raiting-star-icon">
+                <img class="star-icon" src="./Assets/Images/2-Home/Order-Place-Container/star-icon.svg" alt="raiting-star-icon">
+                <img class="star-icon" src="./Assets/Images/2-Home/Order-Place-Container/star-icon.svg" alt="raiting-star-icon">
+                </div>
+            </li>
+            
+            <li class="filter-item">
+              <div class="custom-checkbox">
+                <input type="checkbox" id="checkbox11" />
+                <label for="checkbox11"></label>
+              </div>
+              <div class="raiting-stars">
+                <img class="star-icon" src="./Assets/Images/2-Home/Order-Place-Container/star-icon.svg" alt="raiting-star-icon">
+                <img class="star-icon" src="./Assets/Images/2-Home/Order-Place-Container/star-icon.svg" alt="raiting-star-icon">
+                <img class="star-icon" src="./Assets/Images/2-Home/Order-Place-Container/star-icon.svg" alt="raiting-star-icon">
+                <img class="star-icon" src="./Assets/Images/2-Home/Order-Place-Container/star-icon.svg" alt="raiting-star-icon">
+                </div>
+            </li>
+            <li class="filter-item">
+              <div class="custom-checkbox">
+                <input type="checkbox" id="checkbox12" />
+                <label for="checkbox12"></label>
+              </div>
+              <div class="raiting-stars">
+                <img class="star-icon" src="./Assets/Images/2-Home/Order-Place-Container/star-icon.svg" alt="raiting-star-icon">
+                <img class="star-icon" src="./Assets/Images/2-Home/Order-Place-Container/star-icon.svg" alt="raiting-star-icon">
+                <img class="star-icon" src="./Assets/Images/2-Home/Order-Place-Container/star-icon.svg" alt="raiting-star-icon">
+                </div>
+            </li>
+            <li class="filter-item">
+              <div class="custom-checkbox">
+                <input type="checkbox" id="checkbox13" />
+                <label for="checkbox13"></label>
+              </div>
+              <div class="raiting-stars">
+                <img class="star-icon" src="./Assets/Images/2-Home/Order-Place-Container/star-icon.svg" alt="raiting-star-icon">
+                <img class="star-icon" src="./Assets/Images/2-Home/Order-Place-Container/star-icon.svg" alt="raiting-star-icon">
+                </div>
+            </li>
+            <li class="filter-item">
+              <div class="custom-checkbox">
+                <input type="checkbox" id="checkbox14" />
+                <label for="checkbox14"></label>
+              </div>
+              <div class="raiting-stars">
+                <img class="star-icon" src="./Assets/Images/2-Home/Order-Place-Container/star-icon.svg" alt="raiting-star-icon">
+                </div>
+            </li>
+
+
+          </ul>
+        </div>
+      </aside>
+<div class="card-right">
+      <div class="restaurants-title-search-container">
+        <p class="search-container-title">2840 Places To Order</p>
+        <div class="input-container-1">
+          <img
+            src="./Assets/Images/Icons/magnifier-icon.svg"
+            alt="Magnifier Icon"
+          />
+          <input type="text" placeholder="Search place or items" />
+        </div>
+      </div>
+      <div class="restaurants-cards-container">
+        <div class="single-food-card">
+          <div class="main-img-container">
+            <img
+              class="card-main-img"
+              src="./Assets/Images/2-Home/Order-Place-Container/suchi-express-food-image.png"
+              alt="food image"
+            />
+            <img
+              class="card-like-icon"
+              src="./Assets/Images/Icons/like-icon.svg"
+              alt="Like Icon"
+            />
+          </div>
+          <div class="card-text-container">
+            <div class="restaurant-logo">
+              <img src="./Assets/Images/2-Home/Order-Place-Container/sushi-express-logo-.png" alt="Sushi Express Resturant Logo" />
+            </div>
+            <div class="card-info">
+                <p class="card-info-title">Sushi Express</p>
+                <div class="card-review-part">
+                  <img 
+                  src="./Assets/Images/Icons/star-icon.svg" 
+                  alt="Yellow Raiting Star Icon" 
+                  />
+                  <span class="rating-text"> 4.8</span>
+                  <img 
+                  src="./Assets/Images/Icons/dot-icon.svg" 
+                  alt="Dot Icon" 
+                  />
+                  <p>1024 + review</p>
+                </div>
+                <div class="food-type-with-delivery">
+                    <p class="food-type-info">Sushi, Sea food</p>
+                    <div class="delivery-info-free">Free Delivery</div>
+                </div>
+            </div>
+          </div>
+        </div>
+
+<!--------------------single-food-card-02-------------------->
+
+<div class="single-food-card">
+  <div class="main-img-container">
+    <img
+      class="card-main-img"
+      src="./Assets/Images/2-Home/Order-Place-Container/nando's-food.png"
+      alt="food image"
+    />
+    <img
+      class="card-like-icon"
+      src="./Assets/Images/Icons/like-icon.svg"
+      alt="Like Icon"
+    />
+  </div>
+  <div class="card-text-container">
+    <div class="restaurant-logo">
+      <img src="./Assets/Images/2-Home/Order-Place-Container/nando's-logo.png" alt="Sushi Express Resturant Logo" />
+    </div>
+    <div class="card-info">
+        <p class="card-info-title">Nando's</p>
+        <div class="card-review-part">
+          <img 
+          src="./Assets/Images/Icons/star-icon.svg" 
+          alt="Yellow Raiting Star Icon" 
+          />
+          <span class="rating-text"> 4.9</span>
+          <img 
+          src="./Assets/Images/Icons/dot-icon.svg" 
+          alt="Dot Icon" 
+          />
+          <p>512 + review</p>
+        </div>
+        <div class="food-type-with-delivery">
+            <p class="food-type-info">Chicken, French fries</p>
+            <div class="delivery-info-free-other">Delivery in 20 mins</div>
+        </div>
+    </div>
+  </div>
+</div>
+
+<!--------------------single-food-card-03-------------------->
+
+<div class="single-food-card">
+  <div class="main-img-container">
+    <img
+      class="card-main-img"
+      src="./Assets/Images/2-Home/Order-Place-Container/sushit-ei-food.png"
+      alt="food image"
+    />
+    <img
+      class="card-like-icon"
+      src="./Assets/Images/Icons/like-icon.svg"
+      alt="Like Icon"
+    />
+  </div>
+  <div class="card-text-container">
+    <div class="restaurant-logo">
+      <img src="./Assets/Images/2-Home/Order-Place-Container/sushit-ei-logo.png" alt="Sushi Express Resturant Logo" />
+    </div>
+    <div class="card-info">
+        <p class="card-info-title">Sushi Tei</p>
+        <div class="card-review-part">
+          <img 
+          src="./Assets/Images/Icons/star-icon.svg" 
+          alt="Yellow Raiting Star Icon" 
+          />
+          <span class="rating-text"> 4.7</span>
+          <img 
+          src="./Assets/Images/Icons/dot-icon.svg" 
+          alt="Dot Icon" 
+          />
+          <p>3577+ reviews</p>
+        </div>
+        <div class="food-type-with-delivery">
+            <p class="food-type-info">Sushi, Sea food</p>
+            <div class="delivery-info-free">Free Delivery</div>
+        </div>
+    </div>
+  </div>
+</div>
+
+<!--------------------single-food-card-04-------------------->
+
+<div class="single-food-card">
+<div class="main-img-container">
+<img
+class="card-main-img"
+src="./Assets/Images/2-Home/Order-Place-Container/domino's-pizza-food.png"
+alt="food image"
+/>
+<img
+class="card-like-icon"
+src="./Assets/Images/Icons/like-icon.svg"
+alt="Like Icon"
+/>
+</div>
+<div class="card-text-container">
+<div class="restaurant-logo">
+<img src="./Assets/Images/2-Home/Order-Place-Container/domino's-pizza-logo.png" alt="Sushi Express Resturant Logo" />
+</div>
+<div class="card-info">
+<p class="card-info-title">Domino's Pizza</p>
+<div class="card-review-part">
+  <img 
+  src="./Assets/Images/Icons/star-icon.svg" 
+  alt="Yellow Raiting Star Icon" 
+  />
+  <span class="rating-text"> 4.5</span>
+  <img 
+  src="./Assets/Images/Icons/dot-icon.svg" 
+  alt="Dot Icon" 
+  />
+  <p>547+ review</p>
+</div>
+<div class="food-type-with-delivery">
+    <p class="food-type-info">Pizza</p>
+    <div class="delivery-info-free-other">min 20.00$</div>
+</div>
+</div>
+</div>
+</div>
+
+<!--------------------single-food-card-05-------------------->
+
+<div class="single-food-card">
+  <div class="main-img-container">
+    <img
+      class="card-main-img"
+      src="./Assets/Images/2-Home/Order-Place-Container/chipotle-mexican-grill-food.png"
+      alt="food image"
+    />
+    <img
+      class="card-like-icon"
+      src="./Assets/Images/Icons/like-icon.svg"
+      alt="Like Icon"
+    />
+  </div>
+  <div class="card-text-container">
+    <div class="restaurant-logo">
+      <img src="./Assets/Images/2-Home/Order-Place-Container/chipotle-mexican-grill-logo.png" alt="Sushi Express Resturant Logo" />
+    </div>
+    <div class="card-info">
+        <p class="card-info-title">Chipotle Mexican Grill</p>
+        <div class="card-review-part">
+          <img 
+          src="./Assets/Images/Icons/star-icon.svg" 
+          alt="Yellow Raiting Star Icon" 
+          />
+          <span class="rating-text"> 4.7</span>
+          <img 
+          src="./Assets/Images/Icons/dot-icon.svg" 
+          alt="Dot Icon" 
+          />
+          <p>1447+ review</p>
+        </div>
+        <div class="food-type-with-delivery">
+            <p class="food-type-info">Mexican, Spicy</p>
+            <div class="delivery-info-free">Free Delivery</div>
+        </div>
+    </div>
+  </div>
+</div>
+
+<!--------------------single-food-card-06-------------------->
+
+<div class="single-food-card">
+<div class="main-img-container">
+<img
+class="card-main-img"
+src="./Assets/Images/2-Home/Order-Place-Container/olive-garden-food.png"
+alt="food image"
+/>
+<img
+class="card-like-icon"
+src="./Assets/Images/Icons/like-icon.svg"
+alt="Like Icon"
+/>
+</div>
+<div class="card-text-container">
+<div class="restaurant-logo">
+<img src="./Assets/Images/2-Home/Order-Place-Container/olive-garden-logo.png" alt="Sushi Express Resturant Logo" />
+</div>
+<div class="card-info">
+<p class="card-info-title">Olive Garden</p>
+<div class="card-review-part">
+  <img 
+  src="./Assets/Images/Icons/star-icon.svg" 
+  alt="Yellow Raiting Star Icon" 
+  />
+  <span class="rating-text"> 4.6</span>
+  <img 
+  src="./Assets/Images/Icons/dot-icon.svg" 
+  alt="Dot Icon" 
+  />
+  <p>878+ review</p>
+</div>
+<div class="food-type-with-delivery">
+    <p class="food-type-info">Pasta, Chaomin</p>
+    <div class="delivery-info-free-other">min 45.00$</div>
+</div>
+</div>
+</div>
+</div>
+
+<!--------------------single-food-card-07-------------------->
+
+<div class="single-food-card">
+  <div class="main-img-container">
+    <img
+      class="card-main-img"
+      src="./Assets/Images/2-Home/Order-Place-Container/los-pollos-hermanos-food.png"
+      alt="Placeholder"
+    />
+    <img
+      class="card-like-icon"
+      src="./Assets/Images/Icons/like-icon.svg"
+      alt="Like Icon"
+    />
+  </div>
+  <div class="card-text-container">
+    <div class="restaurant-logo">
+      <img src="./Assets/Images/2-Home/Order-Place-Container/los-pollos-hermanos-logo.png" alt="Sushi Express Resturant Logo" />
+    </div>
+    <div class="card-info">
+        <p class="card-info-title">Los Pollos Hermanos</p>
+        <div class="card-review-part">
+          <img 
+          src="./Assets/Images/Icons/star-icon.svg" 
+          alt="Yellow Raiting Star Icon" 
+          />
+          <span class="rating-text"> 4.3</span>
+          <img 
+          src="./Assets/Images/Icons/dot-icon.svg" 
+          alt="Dot Icon" 
+          />
+          <p>1557+ review</p>
+        </div>
+        <div class="food-type-with-delivery">
+            <p class="food-type-info">Chicken, French fries</p>
+            <div class="delivery-info-free">Free Delivery</div>
+        </div>
+    </div>
+  </div>
+</div>
+
+<!--------------------single-food-card-08-------------------->
+
+<div class="single-food-card">
+<div class="main-img-container">
+<img
+class="card-main-img"
+src="./Assets/Images/2-Home/Order-Place-Container/shawarma.png"
+alt="food image"
+/>
+<img
+class="card-like-icon"
+src="./Assets/Images/Icons/like-icon.svg"
+alt="Like Icon"
+/>
+</div>
+<div class="card-text-container">
+<div class="restaurant-logo">
+<img src="./Assets/Images/2-Home/Order-Place-Container/shawarma-logo.png" alt="Sushi Express Resturant Logo" />
+</div>
+<div class="card-info">
+<p class="card-info-title">Shawarma</p>
+<div class="card-review-part">
+  <img 
+  src="./Assets/Images/Icons/star-icon.svg" 
+  alt="Yellow Raiting Star Icon" 
+  />
+  <span class="rating-text"> 4.9</span>
+  <img 
+  src="./Assets/Images/Icons/dot-icon.svg" 
+  alt="Dot Icon" 
+  />
+  <p>11257+ review</p>
+</div>
+<div class="food-type-with-delivery">
+    <p class="food-type-info">Shawarma, Kebab, Turkish</p>
+    <div class="delivery-info-free">Free Delivery</div>
+</div>
+</div>
+</div>
+</div>
+      </div>
+    </div>
+</section>
+    <section class="app-section">
+      <div class="app-left-side">
+        <div>
+          <p class="app-download">Download Our Mobile App</p>
+          <p class="app-text">And order food easily</p>
+        </div>
+        <div class="btn-app-container">
+          <button class="btn-app btn-app-dark">
+            <img src="./Assets/Images/2-Home/Footer/apple-icon.svg" alt="Apple Icon" />
+            <p>Apple Store</p>
+          </button>
+          <button class="btn-app">
+            <img src="./Assets/Images/2-Home/Footer/google-icon.svg" alt="Google Icon"/>
+            <p>Google Play</p>
+          </button>
+        </div>
+
+        <p class="app-text">Or Login or Create an Account to start order</p>
+      </div>
+
+      <div class="app-image-container">
+        <img src="./Assets/Images/app-look.png" alt="Display of the mobile App look" />
+      </div>
+    </section>
+    <footer>
+      <section>
+        <img src="./Assets/Images/Icons/main-logo.svg" alt="Hanki Logo" />
+        <p class="footer-text">
+          Order Your Favorite Food From Restaurants and shops
+        </p>
+        <div class="btn-app-container">
+          <button class="btn-app btn-app-dark">
+            <img src="./Assets/Images/Icons/apple-icon.svg" alt="Apple Icon"/>
+            <p>Apple Store</p>
+          </button>
+          <button class="btn-app">
+            <img src="./Assets/Images/Icons/google-icon.svg" alt="Google Icon"/>
+            <p>Google Play</p>
+          </button>
+        </div>
+      </section>
+      <section class="footer-list">
+        <div class="list-head-footer">Foods</div>
+        <div class="ul-list">
+          <ul>
+            <li>Food</li>
+            <li>Pizza</li>
+            <li>Chinese</li>
+            <li>Vegan</li>
+            <li>Sushi</li>
+            <li>Indian</li>
+          </ul>
+          <ul>
+            <li>Doner</li>
+            <li>Burgers</li>
+            <li>Ice Cream</li>
+            <li>Asian</li>
+            <li>Groceries</li>
+            <li>Order more food</li>
+          </ul>
+        </div>
+      </section>
+      <section class="footer-list">
+        <div class="list-head-footer">Quick Links</div>
+        <div class="ul-list">
+          <ul>
+            <li>Customer Service</li>
+            <li>Recommend a business</li>
+            <li>List Your Business</li>
+            <li>Become an affiliate</li>
+            <li>Become a courier</li>
+            <li>Jobs</li>
+          </ul>
+          <ul>
+            <li>Points</li>
+            <li>Terms of use</li>
+            <li>Privacy Statement</li>
+            <li>Colophon</li>
+            <li>Cookie statement</li>
+            <li>Newsroom</li>
+          </ul>
+        </div>
+      </section>
+    </footer>
+    <section class="copy-right">
+      <div>
+        <p class="copy-right-text">Hanki By TeachMeCode Institute 2024</p>
+      </div>
+      <div>
+        <img src="./Assets/Images/Icons/facebook-icon.svg" alt="Facebook Icon" />
+        <img src="./Assets/Images/Icons/tweeter-icon.svg" alt="Tweeter Icon" />
+        <img src="./Assets/Images/Icons/instagram-icon.svg" alt="Instagram Icon" />
+        <img src="./Assets/Images/Icons/tiktok-Icon.svg" alt="TikTok Icon" />
+      </div>
+    </section>
+  </body>
+</html>
